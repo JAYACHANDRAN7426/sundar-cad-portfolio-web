@@ -1,0 +1,54 @@
+================================================================================
+SUNDAR SARAVANAN - PREMIUM CAD & MECHANICAL PRODUCT DESIGN PORTFOLIO
+DIRECT-TO-SUNDAR CLIENT EMAIL ENQUIRY WORKFLOW
+================================================================================
+
+1. DIRECT CLIENT ENQUIRY TO EMAIL WORKFLOW
+--------------------------------------------------------------------------------
+The Project Specification Enquiry form in ContactSection.tsx has been upgraded
+so that when any client fills out their requirements and clicks submit:
+
+1. Instant Pre-Filled Email Generation:
+   - Target Recipient : sundarcovai02@gmail.com
+   - Subject Template : [CAD Project Enquiry] - {Service} from {Client Name} [{Ref ID}]
+   - Pre-Formatted Brief:
+     * Full Name & Contact Info
+     * Client Email Address
+     * Phone / WhatsApp Number
+     * Selected CAD Discipline (SolidWorks / CATIA V5)
+     * Full Project Requirements & Envelope Specifications
+     * Reference to any attached brief/sketch files
+     * Unique Tracking Reference ID (e.g. CAD-482910)
+
+2. Automatic Direct Mail Dispatch:
+   - Clicking "Submit & Email Directly to Sundar" automatically triggers the client's
+     mail application (via direct mailto: link) pre-addressed to sundarcovai02@gmail.com.
+
+3. 3-Way Instant Sending Options on Screen:
+   - Option A: "Send via Gmail Web"
+     Opens https://mail.google.com/mail/?view=cm directly in a new browser tab with
+     sundarcovai02@gmail.com, subject, and message pre-populated. Ideal for desktop
+     browser users who do not use local desktop mail clients.
+   - Option B: "Default Mail App"
+     Triggers Outlook, Apple Mail, or default desktop/mobile mail client.
+   - Option C: "Send on WhatsApp (+91 7604 888 467)"
+     Opens https://wa.me/917604888467 with pre-formatted enquiry parameters.
+   - Option D: "Copy Brief"
+     One-click copy to clipboard with toast feedback.
+
+
+2. VERIFIED CONTACT DETAILS INTEGRATED EVERYWHERE
+--------------------------------------------------------------------------------
+- Email     : sundarcovai02@gmail.com (mailto:sundarcovai02@gmail.com)
+- Phone     : +91 7604 888 467 (tel:+917604888467)
+- WhatsApp  : +91 7604 888 467 (https://wa.me/917604888467)
+- LinkedIn  : https://www.linkedin.com/in/sundar-saravanan-341223336/
+
+
+3. BUILD & SERVER VERIFICATION
+--------------------------------------------------------------------------------
+- Framework      : React 19 + TypeScript + Vite 6 + Tailwind CSS v4 + Three.js + Framer Motion + GSAP
+- Build Command  : tsc -b && vite build (Built in 8.22s with 0 errors)
+- Dev Server     : http://localhost:3000 (HTTP 200 OK)
+- Preview Server : http://localhost:4173 (HTTP 200 OK)
+================================================================================

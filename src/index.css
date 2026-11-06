@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cad-bg: #080A0E;
+  --color-cad-surface: #111720;
+  --color-cad-card: #151D2A;
+  --color-cad-card-hover: #1B2536;
+  --color-cad-border: #1E293B;
+  --color-cad-border-light: #2C3B52;
+  --color-cad-accent: #3987FF;
+  --color-cad-cyan: #00D2FF;
+  --color-cad-text: #F5F7FA;
+  --color-cad-muted: #A3ACB9;
+  --color-cad-dim: #64748B;
+  
+  --font-tech: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Chakra Petch", sans-serif;
+}
+
+/* Custom engineering grid backgrounds */
+.bg-blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(57, 135, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(57, 135, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-blueprint-dense {
+  background-image: 
+    linear-gradient(to right, rgba(57, 135, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(57, 135, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(to right, rgba(57, 135, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(57, 135, 255, 0.02) 1px, transparent 1px);
+  background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px;
+}
+
+.bg-blueprint-dots {
+  background-image: radial-gradient(rgba(57, 135, 255, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Metallic gradient utility */
+.metallic-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 40%, #94A3B8 75%, #CBD5E1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.metallic-border {
+  border-image: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(57,135,255,0.6), rgba(255,255,255,0.1)) 1;
+}
+
+.glow-blue {
+  box-shadow: 0 0 35px -5px rgba(57, 135, 255, 0.25);
+}
+
+.glow-blue-lg {
+  box-shadow: 0 0 60px -10px rgba(57, 135, 255, 0.35);
+}
+
+/* Glass effect */
+.cad-glass {
+  background: rgba(17, 23, 32, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(57, 135, 255, 0.15);
+}
+
+.cad-glass-card {
+  background: linear-gradient(145deg, rgba(21, 29, 42, 0.85) 0%, rgba(13, 18, 26, 0.95) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cad-glass-card:hover {
+  border-color: rgba(57, 135, 255, 0.35);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080A0E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+  border: 1px solid rgba(57, 135, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3987FF;
+}
+
+/* Technical crosshairs */
+.cad-crosshair {
+  position: relative;
+}
+.cad-crosshair::before,
+.cad-crosshair::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+

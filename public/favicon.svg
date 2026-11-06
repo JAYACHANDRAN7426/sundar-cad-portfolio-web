@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#080A0E"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#3987FF" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M18 20H46M18 32H46M18 44H46M20 18V46M32 18V46M44 18V46" stroke="#3987FF" stroke-opacity="0.15" stroke-width="1"/>
+  <!-- SS monogram in precision technical style -->
+  <path d="M28 23H20C17.7909 23 16 24.7909 16 27C16 29.2091 17.7909 31 20 31H26C28.2091 31 30 32.7909 30 35C30 37.2091 28.2091 39 26 39H16" stroke="#3987FF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 23H38C35.7909 23 34 24.7909 34 27C34 29.2091 35.7909 31 38 31H44C46.2091 31 48 32.7909 48 35C48 37.2091 46.2091 39 44 39H34" stroke="#F5F7FA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="14" r="3" fill="#3987FF"/>
+</svg>
+
